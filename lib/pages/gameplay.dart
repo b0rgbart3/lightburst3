@@ -81,7 +81,6 @@ class _GameState extends State<Game> {
 
   void _showSequence() {
     
-    //_mySettings.toggleShowSequence();
     if (_revealSequence) {
       developer.log('_reveal was true');
     setState(() {
